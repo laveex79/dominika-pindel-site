@@ -363,6 +363,39 @@ footer {
     font-weight: 300;
     margin-top: 10px;
     }
+    .hero-header {
+    background-image: url('img/header.jpg'); /* tu wstaw swoją grafikę */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 55vh; /* wysokość nagłówka */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: white;
+    }
+
+    /* półprzezroczysta warstwa poprawiająca czytelność tekstu */
+    .hero-overlay {
+    background: rgba(0, 0, 0, 0.45);
+    padding: 40px 20px;
+    border-radius: 8px;
+    }
+
+    .hero-header h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
+    }
+
+    .hero-header h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 10px;
+    }
 
 }
+
 
