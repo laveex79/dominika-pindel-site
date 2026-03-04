@@ -80,7 +80,41 @@ nav a.active::after {
     width: 100%;
 }
 
-/* HERO */
+/* HERO HEADER – NOWY NAGŁÓWEK Z TŁEM */
+
+.hero-header {
+    background-image: url('img/header.jpg'); /* ← tu wstaw właściwy plik */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.45);
+    padding: 40px 20px;
+    border-radius: 8px;
+}
+
+.hero-header h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.hero-header h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+/* HERO (sekcja niżej – zostaje bez zmian) */
 
 .hero {
     display: flex;
@@ -338,64 +372,16 @@ footer {
         margin-left: 0;
         margin-right: 12px;
     }
-    .hero {
-    background-image: url('img/header.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 70vh; /* wysokość nagłówka */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    padding: 0 20px;
-    }
 
-   .hero-content h1 {
-    font-size: 4rem;
-    font-weight: 700;
-    margin: 0;
-    }
-
-    .hero-content h2 {
-    font-size: 2rem;
-    font-weight: 300;
-    margin-top: 10px;
-    }
     .hero-header {
-    background-image: url('img/header.jpg'); /* tu wstaw swoją grafikę */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 55vh; /* wysokość nagłówka */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    text-align: center;
-    color: white;
-    }
-
-    /* półprzezroczysta warstwa poprawiająca czytelność tekstu */
-    .hero-overlay {
-    background: rgba(0, 0, 0, 0.45);
-    padding: 40px 20px;
-    border-radius: 8px;
+        height: 40vh;
     }
 
     .hero-header h1 {
-    font-size: 4rem;
-    font-weight: 700;
-    margin: 0;
+        font-size: 2.6rem;
     }
 
     .hero-header h2 {
-    font-size: 2rem;
-    font-weight: 300;
-    margin-top: 10px;
+        font-size: 1.4rem;
     }
-
 }
-
-
