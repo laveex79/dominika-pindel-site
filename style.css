@@ -83,36 +83,38 @@ nav a.active::after {
 /* HERO HEADER – NOWY NAGŁÓWEK Z TŁEM */
 
 .hero-header {
-    background-image: url('img/header.jpg'); /* ← tu wstaw właściwy plik */
+    background-image: url('img/header.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 55vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-    position: relative;
-    text-align: center;
+    justify-content: flex-start; /* tekst po lewej */
+    padding-left: 8%; /* odsunięcie od krawędzi */
     color: white;
+    position: relative;
 }
 
 .hero-overlay {
-    background: rgba(0, 0, 0, 0.45);
-    padding: 40px 20px;
+    background: rgba(0, 0, 0, 0.35); /* delikatniejszy overlay */
+    padding: 30px 40px;
     border-radius: 8px;
+    max-width: 420px; /* ogranicza szerokość tekstu */
 }
 
 .hero-header h1 {
-    font-size: 4rem;
+    font-size: 3rem; /* mniejsze */
     font-weight: 700;
     margin: 0;
 }
 
 .hero-header h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 300;
     margin-top: 10px;
 }
+
 
 /* HERO (sekcja niżej – zostaje bez zmian) */
 
@@ -385,3 +387,4 @@ footer {
         font-size: 1.4rem;
     }
 }
+
