@@ -87,14 +87,16 @@ nav a.active::after {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 55vh;
+    background-color: #1A1F2E; /* dopasowane tło */
+    height: 35vh; /* zmniejszona wysokość */
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* tekst po lewej */
-    padding-left: 8%; /* odsunięcie od krawędzi */
+    justify-content: flex-start;
+    padding-left: 8%;
     color: white;
     position: relative;
 }
+
 
 .hero-overlay {
     background: rgba(0, 0, 0, 0.35); /* delikatniejszy overlay */
@@ -387,6 +389,7 @@ footer {
         font-size: 1.4rem;
     }
 }
+
 
 
 
