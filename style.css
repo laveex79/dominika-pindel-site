@@ -24,10 +24,10 @@ body {
 /* HERO HEADER */
 .hero-header {
     background-image: url('img/headerfoto.png');
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-color: #1A1F2E; /* kolor tła */
+    background-position: center top;
     background-repeat: no-repeat;
-    background-color: #1A1F2E;
     height: 35vh;
     display: flex;
     align-items: center;
@@ -271,3 +271,4 @@ footer {
         margin-right: 12px;
     }
 }
+
