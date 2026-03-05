@@ -23,19 +23,20 @@ body {
 
 /* HERO HEADER */
 .hero-header {
-    background-image: url('img/headerfoto.png');
-    background-size: contain;
-    background-color: #1A1F2E; /* kolor tła */
-    background-position: center top;
-    background-repeat: no-repeat;
-    height: 35vh;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding-left: 8%;
-    color: white;
-    position: relative;
+  background-image: url('img/headerfoto.png');
+  background-size: cover;        /* ROZCIĄGA zdjęcie */
+  background-position: center;   /* centruje */
+  background-repeat: no-repeat;
+  background-color: #1A1F2E;
+  height: 50vh;                  /* większa wysokość = mniej przycięte */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 8%;
+  color: white;
+  position: relative;
 }
+
 
 .hero-overlay {
     background: rgba(0, 0, 0, 0.35);
@@ -271,4 +272,5 @@ footer {
         margin-right: 12px;
     }
 }
+
 
