@@ -24,11 +24,11 @@ body {
 /* HERO HEADER */
 .hero-header {
   background-image: url('img/headerfoto.png');
-  background-size: cover;        /* ROZCIĄGA zdjęcie */
-  background-position: center;   /* centruje */
+  background-size: cover;          /* rozciąga zdjęcie */
+  background-position: center;     /* NIE obcina góry */
   background-repeat: no-repeat;
   background-color: #1A1F2E;
-  height: 50vh;                  /* większa wysokość = mniej przycięte */
+  height: 50vh;                    /* większa wysokość = brak obcięcia */
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -36,6 +36,7 @@ body {
   color: white;
   position: relative;
 }
+
 
 
 .hero-overlay {
@@ -276,6 +277,7 @@ footer {
     }
 
 }
+
 
 
 
