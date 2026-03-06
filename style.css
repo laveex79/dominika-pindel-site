@@ -3,7 +3,7 @@
     --indigo: #3F51B5;
     --indigo-dark: #283593;
     --indigo-light: #E8EAF6;
-    --accent: #FFC107; /* złoty */
+    --accent: #FFC107;
     --text-main: #222;
     --text-light: #f5f5f5;
     --bg-light: #F5F7FB;
@@ -21,22 +21,21 @@ body {
     background-color: var(--bg-light);
 }
 
-/* HERO HEADER */
+/* HERO HEADER — NOWA WERSJA */
 .hero-header {
-  background-image: url('img/headerfoto.png');
-  background-size: cover;
-  background-position: top center;   /* NIE obcina góry */
-  background-repeat: no-repeat;
-  background-color: #1A1F2E;
-  height: 60vh;                      /* daje pełne zdjęcie */
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding-left: 8%;
-  color: white;
-  position: relative;
+    background-image: url('img/headerfoto.png');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #1A1F2E;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 8%;
+    color: white;
+    position: relative;
 }
-
 
 .hero-overlay {
     background: rgba(0, 0, 0, 0.35);
@@ -271,16 +270,4 @@ footer {
         margin-left: 0;
         margin-right: 12px;
     }
-
-    .page-content {
-    padding: 40px 8%;
-    }
-
 }
-
-
-
-
-
-
-
